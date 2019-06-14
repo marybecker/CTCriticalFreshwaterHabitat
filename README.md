@@ -36,7 +36,7 @@ Anticipated deliverables include an interactive and static map for download disp
 with identified high density wild brook trout populations overlaid on stream catchments that identify suggested management
 strategies. A spatial join of brook trout streams
 
-##References
+## References
 Mike Beauchene, Mary Becker, Christopher J. Bellucci, Neal Hagstrom & Yoichiro Kanno (2014) Summer Thermal Thresholds 
 of Fish Community Transitions in Connecticut Streams, North American Journal of Fisheries Management, 
 34:1, 119-131, DOI: 10.1080/02755947.2013.855280 
@@ -63,7 +63,7 @@ Darren J. Thornbrugh, Scott G. Leibowitz, Ryan A. Hill, Marc H. Weber, Zachary C
 Joseph E. Flotemersch, John L. Stoddard, David V. Peck, 2018, Mapping watershed integrity for the conterminous 
 United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.ecolind.2017.10.070.
 
-##Data Sources
+## Data Sources
 CT DEEP Connecticut Stream flow Classifications - Wild Brook Trout Attribute
 [Metadata](http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm)
 [Shapefile](ftp://ftp.ct.gov/dep/gis/shapefile_format_zip/FinalStreamflowClassifications_shp.zip)
