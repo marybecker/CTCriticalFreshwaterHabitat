@@ -14,7 +14,7 @@ culverts, and introduction of exotic species ([Eastern Brook Trout Venture](http
 
 This project will conduct a landscape level analysis to identify streams with wild brook trout populations in CT 
 and prioritize stream management strategies based on the index of watershed integrity (IWI) and index of 
-catchment integrity (ICI) developed by Flotemersch et al. (2016) and mapped by Thornbrugh et al. (2018).  
+catchment integrity (ICI) developed by Flotemersch et al. (2016) and mapped by Thornbrugh et al. (2018).
 Watershed integrity is the capacity of a watershed to support and maintain the full range of ecological processes and 
 function essential to sustainability.  The IWI and ICI provide a watershed and localized catchment index, respectively, 
 of six ecological processes and functions:  hydrologic regulation, regulation of water chemistry, sediment regulation, 
@@ -30,11 +30,14 @@ with a high priority because there a focused smaller area of land to restore.  S
 are targeted for protection with a high priority to maintain the current habitat. 
 
 ![ICI - IWI Site Prioritization Example](graphics/ICI_IWI_Example.png)
-*ICI - IWI Site Prioritization Example*
+*ICI - IWI Site Prioritization Example (Stamp Et Al 2018)*
 
-Anticipated deliverables include an interactive and static map for download displaying streams (multi-lines) 
-with identified high density wild brook trout populations overlaid on stream catchments that identify suggested management
-strategies. A spatial join of brook trout streams
+Anticipated deliverables include 
+*an interactive map displaying stream catchments that contain high density wild brook trout population streams
+and suggested management strategies based on watershed and catchment integrity with popups
+*a static map available for download
+*a geojson of stream catchments and attributes
+*an informative website with embedded maps and links to references
 
 ## References
 Mike Beauchene, Mary Becker, Christopher J. Bellucci, Neal Hagstrom & Yoichiro Kanno (2014) Summer Thermal Thresholds 
