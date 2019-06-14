@@ -25,8 +25,8 @@ The index ranges from 0 to 1 where 0 is a maximum impacted site and 1 is an unal
 
 I use a recently proposed conceptual framework for prioritizing site restoration and protection (Stamp et al. 2018)
 that averages IWI and ICI for a given stream catchment containing for wild brook trout streams. Stream catchments 
-with a low IWI and ICI are degraded and are targeted for restoration as are sites with a high IWI but low ICI.
-sites with a high IWI but low ICI are also targeted for restoration, but with a high priority because 
+with a low IWI and ICI are degraded and are targeted for restoration.
+Sites with a high IWI but low ICI are also targeted for restoration, but with a high priority because 
 there is indication that the alteration is coming from a small nearby localized area. Sites with both high IWI and high ICI
 are targeted for protection with a high priority to maintain the current habitat. 
 
