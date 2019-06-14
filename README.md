@@ -12,8 +12,9 @@ State of Connecticut (CT) (Beauchene et al. 2014).  Cold water fish populations 
 the CT due to stream flow and temperature modification caused by land use, fragmented populations from dams and 
 culverts, climate change and introduction of exotic species ([Eastern Brook Trout Venture](https://easternbrooktrout.org/), 2019).
 
-This project conducts a landscape level analysis to identify streams with wild brook trout populations in CT 
-and prioritize stream management strategies based on the index of watershed integrity (IWI) and index of 
+This project conducts a landscape level analysis to identify streams with 
+current and historic wild brook trout populations in CT and prioritize stream management strategies based
+on the index of watershed integrity (IWI) and index of 
 catchment integrity (ICI) developed by Flotemersch et al. (2016) and mapped by Thornbrugh et al. (2018).
 Watershed integrity is the capacity of a watershed to support and maintain the full range of ecological processes and 
 function essential to sustainability.  The IWI and ICI provide a watershed and localized catchment index, respectively, 
@@ -24,17 +25,17 @@ The index ranges from 0 to 1 where 0 is a maximum impacted site and 1 is an unal
 
 I use a recently proposed conceptual framework for prioritizing site restoration and protection (Stamp et al. 2018)
 that averages IWI and ICI for a given stream catchment containing for wild brook trout streams. Stream catchments 
-with a low IWI and ICI are degraded and are targeted for restoration with a low priority due the large number of 
-resources required to restore an entire watershed.  Stream catchment with a high IWI but low ICI are targeted for restoration
-with a high priority because there a focused smaller area of land to restore.  Sites with both high IWI and high ICI
+with a low IWI and ICI are degraded and are targeted for restoration as are sites with a high IWI but low ICI.
+sites with a high IWI but low ICI are also targeted for restoration, but with a high priority because 
+there is indication that the alteration is coming from a small nearby localized area. Sites with both high IWI and high ICI
 are targeted for protection with a high priority to maintain the current habitat. 
 
 ![ICI - IWI Site Prioritization Example](graphics/ICI_IWI_Example.png)
 *ICI - IWI Site Prioritization Example (Stamp Et Al 2018)*
 
 Anticipated deliverables include:
-* an interactive map displaying stream catchments that contain high density wild brook trout population streams
-and suggested management strategies based on watershed and catchment integrity with popups
+* an interactive map displaying stream sites with sampled high density wild brook trout populations
+and stream catchments displaying suggested management strategies based on watershed and catchment integrity
 * a static map available for download
 * a geojson of stream catchments and attributes
 * an informative website with embedded maps and links to references
@@ -75,6 +76,8 @@ United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.eco
 CT DEEP Connecticut Stream flow Classifications - Wild Brook Trout Attribute, Accessed June 2019
 * [Metadata](http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm)
 * [Shapefile](https://www.ct.gov/deep/cwp/view.asp?a=2701&q=323444&deepNav_GID=1636)
+
+CT DEEP Monitoring and Assessment Program and Inland Fisheries Program Fish Survey Data 1989 - 2017
 
 [NHD Plus Version 2](http://www.horizon-systems.com/NHDPlus/NHDPlusV2_home.php), Accessed June 2019
 
