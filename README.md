@@ -44,39 +44,40 @@ Mike Beauchene, Mary Becker, Christopher J. Bellucci, Neal Hagstrom & Yoichiro K
 of Fish Community Transitions in Connecticut Streams, North American Journal of Fisheries Management, 
 34:1, 119-131, DOI: 10.1080/02755947.2013.855280 
 
-CT Department of Energy and Environmental Protection. 2016.  METHODOLOGY FOR DEFINING PRELIMINARY STREAM FLOW 
-CLASSIFICATIONS PURSUANT TO SECTIONS 26-141B-1 TO 26-141B-8 OF THE REGULATIONS OF CONNECTICUT STATE AGENCIES.
+CT Department of Energy and Environmental Protection. 2016.  Methodology for
+defining preliminary stream flow classifications pursuant to sections
+26-141B-1 TO 26-141B-8 of the regulations of Connecticut State Agencies.  Hartford, CT.
 
 Eastern Brook Trout Join Venture Website.  Accessed 14 June 2019.
 [https://easternbrooktrout.org/](https://easternbrooktrout.org/)
 
-Flotemersch, J. E., Leibowitz, S. G., Hill, R. A., Stoddard, J. L., Thoms, M. C., and Tharme, R. E. ( 2016) 
+Flotemersch, J. E., Leibowitz, S. G., Hill, R. A., Stoddard, J. L., Thoms, M. C., and Tharme, R. E. (2016) 
 A Watershed Integrity Definition and Assessment Approach to Support Strategic Management of Watersheds. 
 River Res. Applic., 32: 1654– 1671. doi: 10.1002/rra.2978. 
 
-Hill, Ryan A., Marc H. Weber, Scott G. Leibowitz, Anthony R. Olsen, and Darren J. Thornbrugh, 2016. 
+Hill, Ryan A., Marc H. Weber, Scott G. Leibowitz, Anthony R. Olsen, and Darren J. Thornbrugh (2016) 
 The Stream-Catchment (StreamCat) Dataset: A Database of Watershed Metrics for the Conterminous United States. 
 Journal of the American Water Resources Association (JAWRA) 52:120-128. DOI: 10.1111/1752-1688.12372.
 
-IPBES. 2019. Global assessment report on biodiversity and ecosystem services of the Intergovernmental Science- 
+IPBES (2019) Global assessment report on biodiversity and ecosystem services of the Intergovernmental Science- 
 Policy Platform on Biodiversity and Ecosystem Services. E. S. Brondizio, J. Settele, S. Díaz, and H. T. Ngo (editors). 
 IPBES Secretariat, Bonn, Germany.
 
-Stamp, Jen, Anna Hamilton, and Mike Paul.  2018. Prioritizing stream sites for restoration and conservation.
+Stamp, Jen, Anna Hamilton, and Mike Paul (2018) Prioritizing stream sites for restoration and conservation.
 New England Association of Environmental Biologists Conference Presentation.  Devens, MA.
 http://www.neaeb.org/past-conference
 
 Darren J. Thornbrugh, Scott G. Leibowitz, Ryan A. Hill, Marc H. Weber, Zachary C. Johnson, Anthony R. Olsen, 
-Joseph E. Flotemersch, John L. Stoddard, David V. Peck, 2018, Mapping watershed integrity for the conterminous 
+Joseph E. Flotemersch, John L. Stoddard, David V. Peck (2018) Mapping watershed integrity for the conterminous 
 United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.ecolind.2017.10.070.
 
 ## Data Sources
-CT DEEP Connecticut Stream flow Classifications - Wild Brook Trout Attribute
+CT DEEP Connecticut Stream flow Classifications - Wild Brook Trout Attribute, Accessed June 2019
 * [Metadata](http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm)
 * [Shapefile](https://www.ct.gov/deep/cwp/view.asp?a=2701&q=323444&deepNav_GID=1636)
 
-[NHD Plus Version 2](http://www.horizon-systems.com/NHDPlus/NHDPlusV2_home.php)
+[NHD Plus Version 2](http://www.horizon-systems.com/NHDPlus/NHDPlusV2_home.php), Accessed June 2019
 
-[EPA StreamCat Dataset](https://www.epa.gov/national-aquatic-resource-surveys/streamcat)
+[EPA StreamCat Dataset](https://www.epa.gov/national-aquatic-resource-surveys/streamcat), Accessed June 2019
 
 
