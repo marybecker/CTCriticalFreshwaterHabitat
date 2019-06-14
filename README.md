@@ -30,7 +30,7 @@ with a high priority because there a focused smaller area of land to restore.  S
 are targeted for protection with a high priority to maintain the current habitat. 
 
 ![ICI - IWI Site Prioritization Example](graphics/ICI_IWI_Example.png)
-ICI - IWI Site Prioritization Example
+*ICI - IWI Site Prioritization Example*
 
 Anticipated deliverables include an interactive and static map for download displaying streams (multi-lines) 
 with identified high density wild brook trout populations overlaid on stream catchments that identify suggested management
@@ -59,6 +59,10 @@ IPBES. 2019. Global assessment report on biodiversity and ecosystem services of 
 Policy Platform on Biodiversity and Ecosystem Services. E. S. Brondizio, J. Settele, S. Díaz, and H. T. Ngo (editors). 
 IPBES Secretariat, Bonn, Germany.
 
+Stamp, Jen, Anna Hamilton, and Mike Paul.  2018. Prioritizing stream sites for restoration and conservation.
+New England Association of Environmental Biologists Conference Presentation.  Devens, MA.
+http://www.neaeb.org/past-conference
+
 Darren J. Thornbrugh, Scott G. Leibowitz, Ryan A. Hill, Marc H. Weber, Zachary C. Johnson, Anthony R. Olsen, 
 Joseph E. Flotemersch, John L. Stoddard, David V. Peck, 2018, Mapping watershed integrity for the conterminous 
 United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.ecolind.2017.10.070.
@@ -66,10 +70,10 @@ United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.eco
 ## Data Sources
 CT DEEP Connecticut Stream flow Classifications - Wild Brook Trout Attribute
 * [Metadata](http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm)
-* [Shapefile](ftp://ftp.ct.gov/dep/gis/shapefile_format_zip/FinalStreamflowClassifications_shp.zip)
+* [Shapefile](https://www.ct.gov/deep/cwp/view.asp?a=2701&q=323444&deepNav_GID=1636)
 
 [NHD Plus Version 2](http://www.horizon-systems.com/NHDPlus/NHDPlusV2_home.php)
 
-[EPA StreamCat Dataset](ftp://newftp.epa.gov/EPADataCommons/ORD/NHDPlusLandscapeAttributes/StreamCat/WelcomePage.html)
+[EPA StreamCat Dataset](https://www.epa.gov/national-aquatic-resource-surveys/streamcat)
 
 
