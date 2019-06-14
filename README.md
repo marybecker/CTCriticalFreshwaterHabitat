@@ -65,8 +65,8 @@ United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.eco
 
 ## Data Sources
 CT DEEP Connecticut Stream flow Classifications - Wild Brook Trout Attribute
-[Metadata](http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm)
-[Shapefile](ftp://ftp.ct.gov/dep/gis/shapefile_format_zip/FinalStreamflowClassifications_shp.zip)
+* [Metadata](http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm)
+* [Shapefile](ftp://ftp.ct.gov/dep/gis/shapefile_format_zip/FinalStreamflowClassifications_shp.zip)
 
 [NHD Plus Version 2](http://www.horizon-systems.com/NHDPlus/NHDPlusV2_home.php)
 
