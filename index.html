@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Connecticut Brook Trout Streams</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #c7c9c8;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #3d3d3d;
+            font-size: 1.1em;
+
+        }
+
+        section {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900i;
+            font-size: 2.8em;
+            font-style: italic;
+            /* The em unit. 3x the current size */
+            letter-spacing: .01em;
+            margin: 0 0 15px 0;
+            /* text-transform: uppercase; */
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #63666a;
+            font-size: 1.5em;
+            letter-spacing: .06em;
+            font-style: italic;
+            margin: 0 0 25px 0;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.8em;
+            margin: 0 0 25px 0;
+        }
+
+        a {
+            color: #15397f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding: 0px 20px 4px 20px;
+            /* font-size: 0.96em; */
+            line-height: 1.6em;
+            color: #63666a;
+        }
+
+        li {
+            margin: 10px 0
+        }
+
+        #map {
+            width: 100%;
+            margin: 0px auto;
+
+        }
+
+        .max-image-width {
+            width: 100%;
+            border: 2px solid black;
+        }
+
+        /* add custom style class here */
+
+        .linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
+        hr {
+            border: 0px;
+            border-bottom: 1px solid #3d3d3d;
+            padding-top: 20px;
+        }
+
+        /* Use float property to make two-column layout */
+
+        .first-column {
+            float: left;
+            width: 48%;
+            padding-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .jpg-title {
+            float: left;
+            display: inline-block;
+            width: 100px;
+            margin: -8px 10px -8px 0;
+        }
+
+        /* When browser is 800px wide or less */
+
+        @media screen and (max-width: 800px) {
+
+            .first-column,
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="map.html" width="100%" height="440px"></iframe>
+    <section>
+        <a href='mapfull.html' class="linkbox">Full-screen version of all Wild Brook Trout Sites in Connecticut</a>
+
+
+        <h1>Wild Brook Trout Streams of Connecticut - DRAFT</h1>
+        <h2>Developed By Mary Becker @ UKY New Maps Plus</h2>
+        <div class="row">
+            <div class="first-column">
+                <p>
+                    <i>Salvelinus fontinalis</i> (eastern wild brook trout) are one of very few native cold water fish species in the
+                    State of Connecticut (CT) (Beauchene et al. 2014).  Cold water fish populations are under great threat in
+                    the CT due to stream flow and temperature modification caused by land use, fragmented populations from dams and
+                    culverts, climate change and introduction of exotic species.  Since 1989, wild brook trout have been observed in
+                    drainage basins that include 3,238 stream miles (approximate 1/4 of all CT stream miles). Approximately 1/3 of that habitat
+                    (1,036 stream miles) is stressed due to human alterations.
+                </p>
+                <h2>Chidsey Brook</h2>
+                <p>
+                    Chidsey Brook is an example of a stressed site.  It has been frequently observed dry during summer months
+                    due to over-pumping of public water supply wells near the streams.  Stressed streams like Chidsey need immediate
+                    management to restore and protect native Connecticut species like the Wild Brook Trout.
+                </p>
+                <h3>Data analysis</h3>
+                <p>
+                    This project conducts a landscape level analysis to identify streams with
+                    current and historic wild brook trout populations in CT and prioritize stream management strategies based
+                    on a Connecticut-based index of watershed integrity (IWI). Watershed integrity is the capacity of a watershed
+                    to support and maintain the full range of ecological processes and function essential to sustainability.
+                    Flotemersch et al. (2016) proposed and Thornbrugh et al. (2018). mapped an IWI for the U.S. based on six ecological
+                    processes and functions:  hydrologic regulation, regulation of water chemistry, sediment regulation, hydrologic connectivity,
+                    temperature regulation, and habitat provision.  A Connecticut specific IWI was developed for this project using data
+                    compiled to developed the recently adopted Connecticut Stream flow Regulations.  The index is a collective measure of the
+                    degree to which human-related alterations have affected these ecological processes and functions.
+                    The index ranges from 0 to 1 where 0 is a an unaltered site and 1 is a highly stressed site.
+                </p>
+
+                <h3>Tools used in this project</h3>
+                <ul>
+                    <li>PostGIS was used to store/query CT stream and fish datasets.</li>
+                    <li>Data is shown on Mapbox web map.</li>
+                    <li>Custom-built R functions were used to calculate watershed statistics</li>
+                </ul>
+
+
+                <hr>
+                <h3>Project data</h3>
+                <ul>
+                    <li><a href="data/fishsitesiwi.geojson">CT DEEP Monitoring and Assessment Program and Inland Fisheries Program Fish Survey Data 1989 - 2017 Geojson</a></li>
+                    <li>CT DEEP Connecticut Stream flow Classifications, Accessed June 2019
+                        <br><a href="http://www.cteco.uconn.edu/metadata/dep/document/final_streamflow_classifications_fgdc_plus.htm">Metadata</a>
+                        <br><a href="https://www.ct.gov/deep/cwp/view.asp?a=2701&q=323444&deepNav_GID=1636">Shapefile</a></li>
+                </ul>
+
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src="graphics/brooktrout.jpg"
+                    title="Brook Trout" border = "5">
+                <div class="linkbox">Wild Brook Trout.  CT DEEP Photo Credit.</div>
+                <img class="max-image-width" src="graphics/drystream.JPG"
+                     title="Dry Stream">
+                <div class="linkbox">Dry Stream.  CT DEEP Photo Credit.</div>
+
+            </div>
+        </div>
+        <h3>References</h3>
+
+        <p>Mike Beauchene, Mary Becker, Christopher J. Bellucci, Neal Hagstrom & Yoichiro Kanno (2014) Summer Thermal Thresholds
+            of Fish Community Transitions in Connecticut Streams, North American Journal of Fisheries Management,
+            34:1, 119-131, DOI: 10.1080/02755947.2013.855280</p>
+
+        <p>CT Department of Energy and Environmental Protection. 2016.  Methodology for
+            defining preliminary stream flow classifications pursuant to sections
+            26-141B-1 TO 26-141B-8 of the regulations of Connecticut State Agencies.  Hartford, CT.<p>
+
+        <p>Eastern Brook Trout Join Venture Website.  Accessed 14 June
+            [https://easternbrooktrout.org/](https://easternbrooktrout.org/)<p>
+
+        <p>Flotemersch, J. E., Leibowitz, S. G., Hill, R. A., Stoddard, J. L., Thoms, M. C., and Tharme, R. E. (2016)
+            A Watershed Integrity Definition and Assessment Approach to Support Strategic Management of Watersheds.
+            River Res. Applic., 32: 1654– 1671. doi: 10.1002/rra.2978.<p>
+
+        <p>PBES (2019) Global assessment report on biodiversity and ecosystem services of the Intergovernmental Science-
+            Policy Platform on Biodiversity and Ecosystem Services. E. S. Brondizio, J. Settele, S. Díaz, and H. T. Ngo (editors).<p>
+        IPBES Secretariat, Bonn, Germany.
+
+        <p>Darren J. Thornbrugh, Scott G. Leibowitz, Ryan A. Hill, Marc H. Weber, Zachary C. Johnson, Anthony R. Olsen,
+            Joseph E. Flotemersch, John L. Stoddard, David V. Peck (2018) Mapping watershed integrity for the conterminous
+            United States. Ecological Indicators 85:1133-1148. https://doi.org/10.1016/j.ecolind.2017.10.070.<p>
+        <hr>
+        See my projects on github
+        <a href="https://www.github.com/marybecker"> @ github.com/marybecker</a>
+    </section>
+</body>
+</html>
