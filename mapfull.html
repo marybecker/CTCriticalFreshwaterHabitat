@@ -4,10 +4,10 @@
     <meta charset='utf-8' />
     <title>Wild Brook Trout Streams</title> <!--Change this!! -->
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script
+    <!-- <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script> -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
     <style>
@@ -36,27 +36,34 @@
         }
 
         #legend {
-            padding: 10px;
+            padding: 0 10px;
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
             line-height: 18px;
-            height: 250px;
+            height: 225px;
             margin-bottom: 40px;
             width: 200px;
         }
 
         .legend-key {
             display: inline-block;
-            border-radius: 20%;
+            border-radius: 100%;
+            border: 1px solid black;
             width: 10px;
             height: 10px;
             margin-right: 5px;
+        }
+
+        .legend-site {
+          margin: 0px 0 10px 0;
+          display:inline-block;
+          font-style: bold;
         }
     </style>
 </head>
 <body>
 
 <div id='map'></div>
-<div class='map-overlay' id='legend'><h3>Wild Brook Trout Streams</h3><p>Indicator of Watershed Integrity</p></div>
+<div class='map-overlay' id='legend'> <div class="legend-site"><img src="graphics/aquarium-15.svg"> Sample Site <h4>Index of Watershed Integrity</h4></div></div>
 
 <script>
     // Change this to your Token ----------------------
@@ -80,7 +87,7 @@
     map.on('load', function() {
         console.log('map load event occured...');
         var layers = ['0-0.1 Least Stressed', '0.1-0.2', '0.2-0.3', '0.3-0.4', '0.4-0.5', '> 0.5 Most Stressed'];
-        var colors = ['#fleef6', '#d4b9da', '#c994c7', '#df65b0', '#dd1c77', '#980043'];
+        var colors = ['#f1eef6', '#d4b9da', '#c994c7', '#df65b0', '#dd1c77', '#980043'];
 
         for (var i = 0; i < layers.length; i++) {
             var layer = layers[i];
@@ -96,6 +103,25 @@
             item.appendChild(value);
             legend.appendChild(item);
         }
+    });
+
+    // Use the following code block to add popups to point layer to display
+    map.on('click', function (e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['fishsitesiwi-7n8tja'] // replace this with the name of the layer
+        });
+
+        if (!features.length) {
+            return;
+        }
+
+        var feature = features[0];
+
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+            .setLngLat(feature.geometry.coordinates)
+            .setHTML('<h3>' + feature.properties.name + '</h3><p>' + 'IWI: '+ feature.properties.iwi.toLocaleString() + '</p>')
+            .setLngLat(feature.geometry.coordinates)
+            .addTo(map);
     });
 
 
