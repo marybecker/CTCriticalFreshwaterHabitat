@@ -7,7 +7,7 @@ This loss is a direct result of human-driven drivers, such as land-use change, c
 species. A key recommendation for future policy decisions is to better integrate resource manage and landscape
 planning across scales.
 
-*Salvelinus fontinalis* (eastern wild brook trout)(eastern wild brook trout) are one of very few native cold water fish species in the
+*Salvelinus fontinalis* (eastern wild brook trout) are one of very few native cold water fish species in the
 State of Connecticut (CT) (Beauchene et al. 2014).  Cold water fish populations are under great threat in
 the CT due to stream flow and temperature modification caused by land use, fragmented populations from dams and
 culverts, climate change and introduction of exotic species.  Since 1989, wild brook trout have been observed in
