@@ -26,8 +26,8 @@ degree to which human-related alterations have affected these ecological process
 The index ranges from 0 to 1 where 0 is a an unaltered site and 1 is a highly stressed site.  The map displays wild brook
 trout habitat as the watershed upstream of high densities of wild brook trout popultations.  High density wild brook trout
 populations are defined as sites where observed samples contained greater than 73 wild brook trout per hectare.  Samples were
-collected by the CT DEEP Monitoring and Assessment Program and Inland Fisheries Program from 1989 - 2017.  Site with higher
-levels of stress should be prioritize for restoration, while sites with low levels of stress should be prioritized for protection.
+collected by the CT DEEP Monitoring and Assessment Program and Inland Fisheries Program from 1989 - 2017.  Watersheds with higher
+levels of stress should be prioritize for restoration, while watersheds with low levels of stress should be prioritized for protection.
 
 
 ## References
