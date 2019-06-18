@@ -1,6 +1,6 @@
 {
     "title": "Connecticut Wild Brook Trout Streams",
-    "info": "", 
+    "info": "The map displays wild brook trout habitat as the watershed upstream of high densities of wild brook trout populations.  High density wild brook trout populations are defined as sites where observed samples contained greater than 73 wild brook trout per hectare.  Samples were collected by the CT DEEP Monitoring and Assessment Program and Inland Fisheries Program from 1989 - 2017.  A CT specific watershed catchment index of watershed integrity stress level is displayed as a color gradient.",
     "coordinates": [41.5, -72.6],
     "author": "marybecker", 
     "link": "https://marybecker.github.io/CTCriticalFreshwaterHabitat/" 
