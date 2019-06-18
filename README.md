@@ -39,6 +39,7 @@ and stream catchments displaying suggested management strategies based on waters
 * a static map available for download
 * a geojson of stream catchments and attributes
 * an informative website with embedded maps and links to references
+* Draft website: https://marybecker.github.io/CTCriticalFreshwaterHabitat/
 
 ## References
 Mike Beauchene, Mary Becker, Christopher J. Bellucci, Neal Hagstrom & Yoichiro Kanno (2014) Summer Thermal Thresholds 
